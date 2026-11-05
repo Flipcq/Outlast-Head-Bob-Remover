@@ -1602,8 +1602,9 @@ class PatcherGUI:
         self.breathing_var = tk.BooleanVar(value=True)
 
         root.title(APP_TITLE)
-        root.geometry("820x600")
-        root.minsize(740, 520)
+        root.geometry("780x700")
+        root.minsize(740, 600)
+        root.resizable(True, True)
 
         # Ícone da janela (funciona tanto rodando como script .py quanto como .exe --onefile)
         try:
